@@ -75,7 +75,7 @@ span {
   font-size: 13.5px;
   text-align: center;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   main {
     height: 100vh;
     display: flex;
@@ -101,7 +101,7 @@ span {
     line-height: 20px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   main {
     height: 100vh;
     display: flex;

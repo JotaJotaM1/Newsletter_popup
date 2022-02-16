@@ -101,3 +101,29 @@ span {
     line-height: 20px;
   }
 }
+@media (min-width: 1024px) {
+  main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .containerGeneral {
+    width: 420px;
+    height: 570px;
+    background-color: white;
+    border-radius: 1rem;
+  }
+  .containerH1 {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+  .textThree {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
